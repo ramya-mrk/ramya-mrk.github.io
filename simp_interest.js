@@ -1,9 +1,4 @@
-function hello(){
-	console.log('Hello,Calculator');
-}
-
 function simple(){
-	
 	var a1=document.getElementById('t1').value;
 	var a2=document.getElementById('t2').value;
 	var a3=document.getElementById('t3').value;
