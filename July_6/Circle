@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src="circle.js"></script>
+</head>
+
+<body>
+Let's calculate problems on circle!
+<br>
+
+Enter the radius <input type="text" id="t1"> <br><br>
+<button onclick="area()"> Results</button> <br><br>
+The area of the circle <input type="text" id="t2"> <br><br>
+The perimeter of the circle <input type="text" id="t3"> <br><br>
+
+</body>
+</html>
+function area(){
+    var r= document.getElementById('t1').value;
+	var a= 3.14*parseInt (r)*parseInt (r);
+	document.getElementById('t2').value=a;
+	var peri= 2* 3.14*parseInt(r);
+	document.getElementById('t3').value=peri;
+}
